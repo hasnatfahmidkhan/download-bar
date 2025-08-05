@@ -2,7 +2,7 @@ const downloadBtn = document.querySelector(".download-btn");
 const progress = document.querySelector(".progress");
 const percentage = document.querySelector("#percentage");
 const filePath = "myfile.pdf";
-let second = 3;
+let second = 5;
 downloadBtn.addEventListener("click", () => {
   // Disable the button immediately to prevent multiple clicks
   downloadBtn.setAttribute("disabled", true);
